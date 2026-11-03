@@ -26,12 +26,87 @@
   </nav>
 </div></header>
 <main class="wrap"><article class="legal"><h1>Cookie policy</h1>
-<p>Questo sito utilizza solo cookie tecnici necessari al funzionamento. <span class="placeholder">[se usi Google Analytics o altri strumenti di misurazione, indicarli qui e attivare un banner di consenso]</span></p>
-<h2>Come gestire i cookie</h2><p>Puoi disattivare i cookie dalle impostazioni del browser.</p></article></main>
+<p>La presente informativa spiega quali cookie e strumenti simili usa questo sito, perché li usa e come puoi gestire le tue scelte. Ultimo aggiornamento: <span class="placeholder">[data]</span>.</p>
+
+<h2>Cosa sono i cookie</h2>
+<p>I cookie sono piccoli file che il browser salva sul dispositivo quando visiti un sito. Servono a far funzionare il sito o a raccogliere informazioni sull'uso che se ne fa.</p>
+
+<h2>Cookie usati da questo sito</h2>
+<p><strong>Cookie tecnici.</strong> Il sito non imposta cookie tecnici propri. Il banner cookie salva nel browser solo la tua scelta (accettare o rifiutare), in una memoria locale, per non mostrartelo di nuovo. Questa memoria non contiene dati personali e non viene inviata ad alcun server.</p>
+<p><strong>Cookie analitici di Google Analytics.</strong> Solo se acconsenti, il sito utilizza Google Analytics per capire in forma aggregata quante persone visitano il sito, quali pagine consultano e da dove arrivano. I cookie impostati sono:</p>
+<ul>
+  <li><strong>_ga</strong>: distingue i visitatori. Durata: 2 anni.</li>
+  <li><strong>_ga_<span class="placeholder">[ID misurazione, es. G-XXXXXXX]</span></strong>: mantiene lo stato della sessione. Durata: 2 anni.</li>
+</ul>
+<p>Gli indirizzi IP sono resi anonimi prima di essere elaborati. Non usiamo questi dati per profilarti né per mostrarti pubblicità personalizzata.</p>
+
+<h2>Base giuridica</h2>
+<p>I cookie analitici sono installati solo previo tuo consenso (art. 122 del Codice privacy e art. 6, par. 1, lett. a del GDPR). Puoi cambiare idea in qualsiasi momento.</p>
+
+<h2>Come gestire le tue scelte</h2>
+<ul>
+  <li>Dal banner, al primo accesso, puoi accettare o rifiutare i cookie analitici.</li>
+  <li>Puoi modificare la scelta in ogni momento cliccando su "Gestisci cookie" nel footer del sito.</li>
+  <li>Puoi cancellare i cookie dalle impostazioni del browser.</li>
+  <li>Puoi installare il componente di Google per disattivare Google Analytics su tutti i siti: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tools.google.com/dlpage/gaoptout</a>.</li>
+</ul>
+
+<h2>Dati trasferiti a Google</h2>
+<p>Google Analytics è fornito da Google Ireland Limited, ma i dati possono essere elaborati da Google LLC negli Stati Uniti. Il trasferimento avviene sulla base del Data Privacy Framework UE-USA e delle clausole contrattuali standard. Maggiori informazioni nella <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy di Google</a>.</p>
+
+<h2>Cookie di terze parti</h2>
+<p>Il sito non include altri strumenti di terze parti che installino cookie. Se in futuro ne aggiungeremo, questa pagina verrà aggiornata e, quando richiesto, verrà chiesto il consenso.</p>
+
+<h2>Contatti</h2>
+<p>Per domande su questa informativa scrivi a <a href="mailto:monica.dominijanni@gmail.com">Scrivici</a>. Per i dati personali in generale, vedi la <a href="privacy.html">privacy policy</a>.</p></article></main>
 
 <footer class="site" id="contatti"><div class="wrap">
-  <div>© 2026 Erbe del Tempio · <span class="placeholder">[ragione sociale e P.IVA]</span></div>
-  <div><a href="privacy.html">Privacy</a> · <a href="cookie.html">Cookie</a> · <a href="affiliazione.html">Dichiarazione di affiliazione</a> · <span class="placeholder">[email di contatto]</span></div>
+  <div>© 2026 Erbe del Tempio</div>
+  <div><a href="privacy.html">Privacy</a> · <a href="cookie.html">Cookie</a> · <a href="affiliazione.html">Dichiarazione di affiliazione</a> · <a href="#" id="ck-manage">Gestisci cookie</a> · <a href="mailto:monica.dominijanni@gmail.com">Scrivici</a></div>
 </div></footer>
+
+<div id="cookie-banner" class="cookie-banner" hidden role="dialog" aria-label="Preferenze cookie">
+  <p>Usiamo Google Analytics per capire in forma aggregata come viene usato il sito. Accetti i cookie analitici? <a href="cookie.html">Cookie policy</a></p>
+  <div class="ck-actions">
+    <button type="button" id="ck-reject" class="ck-btn ck-sec">Rifiuta</button>
+    <button type="button" id="ck-accept" class="ck-btn">Accetta</button>
+  </div>
+</div>
+<script>
+(function(){
+  var GA_ID = "";
+  function getC(){ try { return localStorage.getItem('cookie_consent'); } catch(e){ return null; } }
+  function setC(v){ try { localStorage.setItem('cookie_consent', v); } catch(e){} }
+  function loadGA(){
+    if (!GA_ID || window.__gaLoaded) return;
+    window.__gaLoaded = true;
+    var s = document.createElement('script');
+    s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', GA_ID, { anonymize_ip: true });
+  }
+  var banner = document.getElementById('cookie-banner');
+  var c = getC();
+  if (c === 'accepted') loadGA();
+  if (!c) banner.hidden = false;
+  document.getElementById('ck-accept').onclick = function(){ setC('accepted'); loadGA(); banner.hidden = true; };
+  document.getElementById('ck-reject').onclick = function(){ setC('rejected'); banner.hidden = true; };
+  var m = document.getElementById('ck-manage');
+  if (m) m.onclick = function(e){ e.preventDefault(); banner.hidden = false; };
+})();
+</script>
+<style>
+.cookie-banner{position:fixed;left:12px;right:12px;bottom:12px;max-width:720px;margin:0 auto;background:#fff;color:#23261f;border:1px solid #e2e0d4;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.18);padding:16px 18px;z-index:50;font-size:.95rem}
+.cookie-banner[hidden]{display:none}
+.cookie-banner p{margin:0 0 12px}
+.cookie-banner a{color:#2f5d3a}
+.ck-actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap}
+.ck-btn{font:inherit;font-weight:700;padding:9px 18px;border-radius:999px;border:1px solid #2f5d3a;background:#2f5d3a;color:#fff;cursor:pointer}
+.ck-btn.ck-sec{background:#fff;color:#2f5d3a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .cookie-banner{background:#1d241e;color:#e9ebe4;border-color:#2f3a31}}
+</style>
 </body>
 </html>
