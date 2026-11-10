@@ -10,13 +10,13 @@ const ERBE_LOTTO_1 = [
       "Contiene cinnamaldeide, eugenolo, tannini e polifenoli, oltre all'olio essenziale che ne determina l'aroma",
       "Tradizionalmente attribuita a digestione e alleviamento del gonfiore",
       "Tradizionalmente attribuita a carminazione (riduzione dei gas intestinali)",
-      "Tradizionalmente attribuita al metabolismo degli zuccheri: il tannino è oggetto di studi preliminari",
+      "Oggetto di studi preliminari sul metabolismo degli zuccheri, senza prove cliniche sufficienti",
       "Ricca di antiossidanti, oggetto di studi di laboratorio",
       "L'olio essenziale mostra attività antimicrobica in laboratorio, tradizionalmente sfruttata per il benessere del cavo orale",
       "Tradizionalmente considerata riscaldante e stimolante della circolazione"
     ],
     usi: "Tradizionalmente si prepara come tisana o tintura madre dopo un pasto abbondante. Nelle bevande calde invernali si usa insieme a zenzero e chiodi di garofano.",
-    controindicazioni: "Un consumo eccessivo e continuativo di cassia può affaticare fegato e reni, a causa della cumarina: evitarne un uso elevato in caso di ridotta funzionalità epatica o renale. Chi assume farmaci anticoagulanti o per la glicemia dovrebbe evitare estratti e integratori senza il parere di un professionista. L'uso come spezia in cucina, nelle quantità abituali, è considerato sicuro per la maggior parte delle persone.",
+    controindicazioni: "Un consumo eccessivo e continuativo di cassia può affaticare fegato e reni, a causa della cumarina: evitarne un uso elevato in caso di ridotta funzionalità epatica o renale. Chi assume farmaci anticoagulanti o per la glicemia dovrebbe evitare estratti e integratori senza il parere di un professionista. L'uso come spezia in cucina, nelle quantità abituali, è considerato sicuro per la maggior parte delle persone. Avvertenza sulla preparazione: alimento, infuso, estratto e olio essenziale non sono equivalenti, e le indicazioni di sicurezza di una preparazione non valgono automaticamente per le altre.",
     prodotti: [
       { nome: "Cannella in polvere 35 g", link: "https://www.erbedimauro.it/it/spezie/175-cannella-in-polvere.html?affp=66578" }
     ],
@@ -34,8 +34,8 @@ const ERBE_LOTTO_1 = [
       "Tradizionalmente usata per le ferite e la pelle irritata (azione cicatrizzante e astringente)",
       "L'olio essenziale è oggetto di studi di laboratorio su dolori muscolari e tensioni"
     ],
-    usi: "Tradizionalmente si prepara come infuso al 5% prima dei pasti, anche con anice o basilico. Per uso esterno si usano infusi e decotti su piccole ferite, punture di insetto e pelle arrossata. Nella tradizione erboristica si usa anche per il ciclo mestruale irregolare.",
-    controindicazioni: "Possibili allergie, soprattutto in chi è allergico alle Asteraceae. Evitare in gravidanza e allattamento per precauzione. Può interagire con anticoagulanti e antipertensivi. Dopo applicazione cutanea può causare fotosensibilità: evitare l'esposizione solare. L'olio essenziale non va usato in età pediatrica.",
+    usi: "Tradizionalmente si prepara un infuso di fiori e foglie, in piccole quantità, prima dei pasti, anche con anice o basilico. Per uso esterno si usano infusi e decotti su piccole ferite, punture di insetto e pelle arrossata. Nella tradizione erboristica si usa anche per il ciclo mestruale irregolare.",
+    controindicazioni: "Possibili allergie, soprattutto in chi è allergico alle Asteraceae. Evitare in gravidanza e allattamento per precauzione. Può interagire con anticoagulanti e antipertensivi. Dopo applicazione cutanea può causare fotosensibilità: evitare l'esposizione solare. L'olio essenziale non va usato in età pediatrica. Avvertenza sulla preparazione: alimento, infuso, estratto e olio essenziale non sono equivalenti, e le indicazioni di sicurezza di una preparazione non valgono automaticamente per le altre.",
     prodotti: [
       { nome: "Achillea Millefoglie, tisana 50 g, 500 g e 1 kg", link: "https://www.erbedimauro.it/it/tisane-depurative/69-273-achillea-millefoglie-tisana.html?affp=66578#/confezione-50_g" },
       { nome: "Super Depur, tisana con achillea, calendula e ortica", link: "https://www.erbedimauro.it/it/tisane-depurative/45-342-tisana-super-depur.html?affp=66578#/confezione-50_g" }
@@ -56,7 +56,7 @@ const ERBE_LOTTO_1 = [
       "Studi preliminari suggeriscono un possibile effetto prebiotico sul microbiota intestinale"
     ],
     usi: "Consumato crudo o cotto come alimento, in piccole quantità. Tradizionalmente si usa anche come integratore sotto forma di aglio fermentato, come quello nero.",
-    controindicazioni: "Il suo effetto ipotensivo può causare capogiri in chi ha la pressione bassa. Ha una leggera azione anticoagulante: attenzione se si assumono FANS o anticoagulanti, o in caso di flusso mestruale abbondante. Evitarlo in caso di emorroidi, perché un consumo costante può infiammare. Il contatto diretto con la pelle o le mucose può causare irritazioni.",
+    controindicazioni: "Il suo effetto ipotensivo può causare capogiri in chi ha la pressione bassa. Ha una leggera azione anticoagulante: attenzione se si assumono FANS o anticoagulanti, o in caso di flusso mestruale abbondante. Gli integratori concentrati possono aumentare il rischio di sanguinamento, soprattutto con anticoagulanti e aspirina. Il contatto diretto con la pelle o le mucose può causare irritazioni. Avvertenza sulla preparazione: alimento, infuso, estratto e olio essenziale non sono equivalenti, e le indicazioni di sicurezza di una preparazione non valgono automaticamente per le altre.",
     prodotti: [
       { nome: "Aglio Nero Italiano, fermentato, 100 g", link: "https://www.erbedimauro.it/it/superfood/5-aglio-nero-voghiera.html?affp=66578" }
     ],
@@ -70,13 +70,13 @@ const ERBE_LOTTO_1 = [
     proprieta: [
       "Contiene triterpeni, tannini e acido ursolico",
       "Tradizionalmente attribuita al sostegno del fegato e della bile (azione coleretica e colagoga)",
-      "Oggetto di studi preliminari sul metabolismo degli zuccheri, con effetti limitati a casi lievi",
+      "Tradizionalmente usata come sostegno della digestione",
       "Tradizionalmente usata su pelle e ferite per la sua azione astringente e cicatrizzante",
       "Oggetto di studi di laboratorio per attività antinfiammatoria e antisettica",
       "Tradizionalmente usata per il benessere di gola e vie respiratorie (azione decongestionante e astringente)"
     ],
     usi: "Tradizionalmente si usano le sommità fiorite in infuso. Per uso esterno si impiega come lavanda o impacco su piccole lesioni cutanee.",
-    controindicazioni: "Se usata per breve periodo, di solito non dà effetti collaterali. È sconsigliata durante gravidanza e allattamento.",
+    controindicazioni: "Se usata per breve periodo, di solito non dà effetti collaterali. È sconsigliata durante gravidanza e allattamento. Avvertenza sulla preparazione: alimento, infuso, estratto e olio essenziale non sono equivalenti, e le indicazioni di sicurezza di una preparazione non valgono automaticamente per le altre.",
     prodotti: [],
     immagine: "agrimonia.jpg"
   },
@@ -89,12 +89,12 @@ const ERBE_LOTTO_1 = [
       "Contiene vitamina C in quantità notevole, carotenoidi e luteina, antiossidanti oggetto di studi di laboratorio",
       "Contiene tannini e mucillagini, responsabili delle proprietà astringenti",
       "Tradizionalmente attribuito a un'azione diuretica",
-      "Tradizionalmente usato come sostegno delle vie urinarie: studi preliminari suggeriscono un ruolo nella prevenzione dei calcoli",
+      "Tradizionalmente usato come sostegno delle vie urinarie",
       "Oggetto di studi di laboratorio per attività antimicrobica e antinfiammatoria",
       "I carotenoidi sono associati alla salute della vista"
     ],
     usi: "Il frutto è considerato un alimento sicuro, da consumare in quantità moderate nell'ambito di un'alimentazione varia. Tradizionalmente il frutto essiccato e polverizzato è usato come integratore.",
-    controindicazioni: "Il frutto non presenta particolari controindicazioni, ma può interferire con alcuni farmaci, come i diuretici. Le foglie che circondano il frutto contengono solanina, tossica in dosi elevate: non vanno consumate.",
+    controindicazioni: "Il frutto non presenta particolari controindicazioni, ma può interferire con alcuni farmaci, come i diuretici. Le parti verdi della pianta (foglie, fusto e calice che avvolge il frutto) contengono solanina, tossica in dosi elevate: non vanno consumate. Il frutto maturo è quello da usare. Avvertenza sulla preparazione: alimento, infuso, estratto e olio essenziale non sono equivalenti, e le indicazioni di sicurezza di una preparazione non valgono automaticamente per le altre.",
     prodotti: [],
     immagine: "alchechengi.jpg"
   },
@@ -111,8 +111,8 @@ const ERBE_LOTTO_1 = [
       "Tradizionalmente usata su pelle e mucose (azione vulneraria)",
       "Ricca di vitamina C"
     ],
-    usi: "Tradizionalmente si usa il succo fresco su piaghe, con medicazioni giornaliere. Gli infusi di foglie e fiori si usano per il catarro. I semi, simili a quelli della senape, si usano come condimento.",
-    controindicazioni: "Non ci sono controindicazioni specifiche. Va consumata con moderazione: un consumo eccessivo può causare disturbi gastrointestinali lievi. Chi è allergico alle Brassicaceae deve usarla con cautela.",
+    usi: "In passato il succo fresco era usato sulle piaghe. Oggi non è consigliato applicare il succo fresco sulle ferite senza parere medico. Gli infusi di foglie e fiori si usano per il catarro. I semi, simili a quelli della senape, si usano come condimento.",
+    controindicazioni: "Non applicare il succo su ferite profonde o aperte senza parere medico. Va consumata con moderazione: un consumo eccessivo può causare disturbi gastrointestinali lievi. Chi è allergico alle Brassicaceae deve usarla con cautela. Avvertenza sulla preparazione: alimento, infuso, estratto e olio essenziale non sono equivalenti, e le indicazioni di sicurezza di una preparazione non valgono automaticamente per le altre.",
     prodotti: [],
     immagine: "alliaria.jpg"
   },
@@ -128,8 +128,8 @@ const ERBE_LOTTO_1 = [
       "Tradizionalmente attribuita a un'azione cicatrizzante su pelle secca e irritata",
       "I polisaccaridi della radice sono oggetto di studi di laboratorio per un possibile effetto immunomodulante"
     ],
-    usi: "Tradizionalmente si usa il decotto di radice o foglie per gargarismi e risciacqui della bocca. Per uso esterno si usa su pelle irritata e punture d'insetto. Nella tradizione popolare la radice veniva data ai bambini durante la dentizione, avendo cura che non venisse inghiottita.",
-    controindicazioni: "È un rimedio sicuro se si rispettano i normali dosaggi. Va evitata in caso di allergia. Le mucillagini possono ridurre l'assorbimento di alcuni farmaci e nutrienti: assumere a distanza dai farmaci e chiedere consiglio al medico.",
+    usi: "Tradizionalmente si usa il decotto di radice o foglie per gargarismi e risciacqui della bocca. Per uso esterno si usa su pelle irritata e punture d'insetto.",
+    controindicazioni: "È un rimedio sicuro se si rispettano i normali dosaggi. Va evitata in caso di allergia. Le mucillagini possono ridurre l'assorbimento di alcuni farmaci: assumere a distanza di almeno due ore dai farmaci e chiedere consiglio al medico. Non dare la radice ai bambini senza parere del pediatra. Avvertenza sulla preparazione: alimento, infuso, estratto e olio essenziale non sono equivalenti, e le indicazioni di sicurezza di una preparazione non valgono automaticamente per le altre.",
     prodotti: [],
     immagine: "altea.jpg"
   },
@@ -139,14 +139,14 @@ const ERBE_LOTTO_1 = [
     titolo: "Anemone Pulsatilla: uso tradizionale, proprietà e avvertenze",
     intro: "Detta anche 'fiore del vento', è una delle prime piante a fiorire in primavera, spesso ancora sulla neve. Conosciuta anche come 'erba del diavolo' per la sua tossicità allo stato fresco, è una pianta che non va mai raccolta né preparata in casa.",
     proprieta: [
-      "Contiene anemonina, un alcaloide irritante allo stato puro",
-      "Nella pratica omeopatica e fitoterapica standardizzata è tradizionalmente usata per il ciclo femminile e i disturbi premestruali",
+      "Allo stato fresco contiene protoanemonina, una sostanza irritante e tossica (non è un alcaloide)",
+      "Nella tradizione omeopatica è usata per il ciclo femminile e i disturbi premestruali, senza prove di efficacia dimostrata",
       "Tradizionalmente attribuita a un'azione antispasmodica",
-      "Tradizionalmente usata come calmante e per il sonno nei preparati omeopatici",
+      "Tradizionalmente usata come calmante, senza prove di efficacia dimostrata",
       "Tradizionalmente attribuita a un'azione diaforetica e diuretica"
     ],
     usi: "Non si usa fresca. I preparati in commercio derivano da fiori essiccati, in tintura madre o granuli omeopatici, prodotti industrialmente. Qualsiasi uso va fatto solo con la supervisione di un medico o di un omeopata.",
-    controindicazioni: "La pianta fresca è tossica: il contatto con pelle o mucose può irritare, e l'ingestione può causare nausea, vomito, diarrea e, in dosi elevate, disturbi cardiaci e respiratori. È controindicata in gravidanza, allattamento, gastrite, malattie del fegato ed emorragie intestinali.",
+    controindicazioni: "La pianta fresca è tossica: il contatto con pelle o mucose può irritare, e l'ingestione può causare nausea, vomito, diarrea e, in dosi elevate, disturbi cardiaci e respiratori. È controindicata in gravidanza, allattamento, gastrite, malattie del fegato ed emorragie intestinali. Avvertenza sulla preparazione: alimento, infuso, estratto e olio essenziale non sono equivalenti, e le indicazioni di sicurezza di una preparazione non valgono automaticamente per le altre.",
     prodotti: [],
     immagine: "anemone.jpg"
   },
@@ -160,10 +160,10 @@ const ERBE_LOTTO_1 = [
       "Tradizionalmente attribuito all'azione colagoga, che favorisce la secrezione biliare",
       "Tradizionalmente attribuito all'azione spasmolitica e mucolitica, utile per la tosse e i catarri",
       "Tradizionalmente attribuito alla secrezione del latte (azione galattogoga)",
-      "Oggetto di studi in cui sono state usate dosi molto superiori a quelle alimentari, con effetti sul metabolismo degli zuccheri"
+      "Oggetto di studi di laboratorio con dosi molto superiori a quelle alimentari"
     ],
     usi: "Tradizionalmente si usa come estratto, semi o decotto, dopo i pasti. È una spezia usata anche in cucina.",
-    controindicazioni: "È considerato sicuro se usato come spezia nelle quantità tipiche di un'alimentazione varia. Il limite considerato sicuro come integratore è di circa 20 g al giorno, una quantità molto superiore al consumo abituale.",
+    controindicazioni: "È considerato sicuro se usato come spezia nelle quantità tipiche di un'alimentazione varia. Gli estratti concentrati e le dosi elevate non sono documentati come sicuri: chiedi al medico prima di usarli. Avvertenza sulla preparazione: alimento, infuso, estratto e olio essenziale non sono equivalenti, e le indicazioni di sicurezza di una preparazione non valgono automaticamente per le altre.",
     prodotti: [],
     immagine: "anice.jpg"
   }
