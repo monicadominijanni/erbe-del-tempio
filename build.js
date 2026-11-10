@@ -32,6 +32,13 @@ const descr = e => {
   const base = `${e.nome}${e.latino ? " (" + e.latino + ")" : ""}: uso tradizionale, proprietà e avvertenze. ${e.intro}`;
   return base.length > 158 ? base.slice(0, 155).replace(/\s+\S*$/, "") + "…" : base;
 };
+const classify = p => {
+  if (/monografia EMA|EMA riconosce|L'EMA/i.test(p)) return { k: "ema", label: "Monografia EMA" };
+  if (/non (sono|è|esistono|dimostrat|dispone)|non sufficient|senza prove|non dimostrat|non riconosc/i.test(p)) return { k: "nd", label: "Efficacia non dimostrata" };
+  if (/studi|laborator|in vitro|animali|preliminar/i.test(p)) return { k: "pre", label: "Evidenza preliminare" };
+  if (/tradizion|popolar|storic/i.test(p)) return { k: "trad", label: "Uso tradizionale" };
+  return { k: "bot", label: "Dato botanico" };
+};
 const initials = nome => nome.replace(/\(.*?\)/g, "").trim().split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase();
 
 const CSS = `
@@ -76,6 +83,7 @@ article.erba img.hero-img{width:100%;max-height:380px;object-fit:cover;border-ra
 article.erba h2{font-family:"Cormorant Garamond",Georgia,serif;color:var(--verde);border-bottom:2px solid var(--oro);padding-bottom:4px;margin-top:30px;font-size:1.3rem}
 article.erba ul{padding-left:20px}
 article.erba li{margin:4px 0}
+.cls{display:inline-block;font-size:.72rem;font-weight:600;padding:1px 7px;border-radius:999px;margin-right:6px;vertical-align:1px;letter-spacing:.02em}.cls-ema{background:#dfeee0;color:#1f5a2b}.cls-trad{background:#f3ead8;color:#6b4a12}.cls-pre{background:#e4ecf6;color:#1e3f66}.cls-nd{background:#f6e0dc;color:#7a2a1f}.cls-bot{background:#ececec;color:#444}.prop li{margin:.35em 0}
 .note{background:var(--verde-chiaro);border-left:4px solid var(--verde);padding:14px 16px;border-radius:10px;margin:22px 0;font-size:.95rem}
 .warn{background:#fff6e6;color:#4a3a10;border-left:4px solid var(--oro);padding:14px 16px;border-radius:10px;margin:22px 0;font-size:.95rem}
 :root[data-theme="dark"] .warn,:root:not([data-theme="light"]) .warn{background:#2b2615;color:#eadcb0}
@@ -309,14 +317,14 @@ for (const e of erbe) {
   ${img}
   <p>${esc(e.intro)}</p>
   <h2>Proprietà attribuite dalla tradizione</h2>
-  <ul>${e.proprieta.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
+  <ul class="prop">${e.proprieta.map(p => { const c = classify(p); return `<li><span class="cls cls-${c.k}">${c.label}</span>${esc(p)}</li>`; }).join("")}</ul>
   <h2>Uso tradizionale</h2>
   <p>${esc(e.usi)}</p>
   <h2>Avvertenze e controindicazioni</h2>
   <p>${esc(e.controindicazioni)}</p>
   <div class="warn"><strong>Avvertenza.</strong> Le informazioni di questa pagina hanno scopo divulgativo e non sostituiscono il parere del medico o di un professionista sanitario. Non usare le erbe per curare o sostituire una terapia. In gravidanza, allattamento, in presenza di patologie o di farmaci in corso, consulta il medico prima dell'uso.</div>
   ${buy}
-  <p class="note">Le proprietà sono riportate come attribuzioni tradizionali o come oggetto di studi, senza valore di cura.</p>
+  <p class="note">Ogni proprietà è classificata: <strong>monografia EMA</strong> (indicazione europea riconosciuta), <strong>uso tradizionale</strong> (impiego storico senza prove cliniche sufficienti), <strong>evidenza preliminare</strong> (studi di laboratorio, animali o clinici limitati), <strong>efficacia non dimostrata</strong>. Nessuna proprietà ha valore di cura.</p>
   <p><a href="../enciclopedia.html">← Torna all'enciclopedia</a></p>
 </article>
 </main>`;
