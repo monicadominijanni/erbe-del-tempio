@@ -6,7 +6,7 @@ const vm = require("vm");
 
 const ROOT = __dirname;
 const GA_ID = ""; // inserire qui l'ID di misurazione G-XXXXXXX quando disponibile (vuoto = Analytics disattivato)
-const SITE_URL = "https://erbedeltempio.it"; // dominio personalizzato (Aruba) collegato a GitHub Pages
+const SITE_URL = "https://monicadominijanni.github.io/erbe-del-tempio"; // da aggiornare con il dominio quando attivo
 
 // ---------- caricamento dati ----------
 let erbe = [];
@@ -324,7 +324,6 @@ for (const e of erbe) {
   <p>${esc(e.controindicazioni)}</p>
   <div class="warn"><strong>Avvertenza.</strong> Le informazioni di questa pagina hanno scopo divulgativo e non sostituiscono il parere del medico o di un professionista sanitario. Non usare le erbe per curare o sostituire una terapia. In gravidanza, allattamento, in presenza di patologie o di farmaci in corso, consulta il medico prima dell'uso.</div>
   ${buy}
-  <p class="note">Ogni proprietà è classificata: <strong>monografia EMA</strong> (indicazione europea riconosciuta), <strong>uso tradizionale</strong> (impiego storico senza prove cliniche sufficienti), <strong>evidenza preliminare</strong> (studi di laboratorio, animali o clinici limitati), <strong>efficacia non dimostrata</strong>. Nessuna proprietà ha valore di cura.</p>
   <p><a href="../enciclopedia.html">← Torna all'enciclopedia</a></p>
 </article>
 </main>`;
@@ -420,6 +419,5 @@ write("affiliazione.html", legal("Dichiarazione di affiliazione", `
 const urls = [SITE_URL + "/", SITE_URL + "/enciclopedia.html", ...erbe.map(e => `${SITE_URL}/erbe/${e.slug}.html`), SITE_URL + "/chi-siamo.html", SITE_URL + "/privacy.html", SITE_URL + "/cookie.html", SITE_URL + "/affiliazione.html"];
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${u}</loc></url>`).join("\n")}\n</urlset>\n`);
 write("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`);
-write("CNAME", "erbedeltempio.it\n"); // dominio personalizzato GitHub Pages: non rimuovere
 
 console.log(`Generate ${erbe.length} schede erba + pagine di servizio.`);
