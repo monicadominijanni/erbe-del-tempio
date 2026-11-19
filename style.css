@@ -8,7 +8,7 @@ body{margin:0;background:var(--sfondo);color:var(--testo);font-family:system-ui,
 a{color:var(--verde)}
 img{max-width:100%;height:auto}
 .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
-header.top{background:var(--verde);color:#fff}
+header.top{background:#2f5d3a;color:#fff}
 header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;padding:14px 16px}
 header.top a{color:#fff;text-decoration:none}
 .brand{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.35rem;font-weight:700;letter-spacing:.2px}
