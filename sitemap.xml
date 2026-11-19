@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://erbedeltempio.it/</loc></url>
   <url><loc>https://erbedeltempio.it/enciclopedia.html</loc></url>
+  <url><loc>https://erbedeltempio.it/chi-siamo.html</loc></url>
+  <url><loc>https://erbedeltempio.it/affiliazione.html</loc></url>
+  <url><loc>https://erbedeltempio.it/blog/index.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/abrotano.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/acetosa.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/acetosella.html</loc></url>
-  <url><loc>https://erbedeltempio.it/erbe/achillea.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/achillea-odorosa.html</loc></url>
+  <url><loc>https://erbedeltempio.it/erbe/achillea.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/aglio.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/agnocasto.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/agrimonia.html</loc></url>
@@ -38,7 +41,7 @@
   <url><loc>https://erbedeltempio.it/erbe/bocca-di-lupo.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/borragine.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/borsa-del-pastore.html</loc></url>
-  <url><loc>https://erbedeltempio.it/erbe/erica.html</loc></url>
+  <url><loc>https://erbedeltempio.it/erbe/brugo.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/bugola.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/calcatreppola-campestre.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/calendula.html</loc></url>
@@ -54,7 +57,6 @@
   <url><loc>https://erbedeltempio.it/erbe/carpino.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/carvi.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/castagno.html</loc></url>
-  <url><loc>https://erbedeltempio.it/erbe/nepeta-cataria.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/cedracca.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/centaurea-minore.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/centinodia.html</loc></url>
@@ -83,8 +85,8 @@
   <url><loc>https://erbedeltempio.it/erbe/erba-angelica.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/erba-benedetta.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/erba-cipollina.html</loc></url>
-  <url><loc>https://erbedeltempio.it/erbe/sedum-telephium.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/erba-medica.html</loc></url>
+  <url><loc>https://erbedeltempio.it/erbe/erica.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/eringio-marittimo.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/ernia.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/eufrasia.html</loc></url>
@@ -92,8 +94,8 @@
   <url><loc>https://erbedeltempio.it/erbe/fieno-greco.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/finocchio.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/fragola.html</loc></url>
-  <url><loc>https://erbedeltempio.it/erbe/frassino.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/frassino-da-manna.html</loc></url>
+  <url><loc>https://erbedeltempio.it/erbe/frassino.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/fumaria.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/gelso-nero.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/genziana.html</loc></url>
@@ -119,6 +121,7 @@
   <url><loc>https://erbedeltempio.it/erbe/luppolo.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/maca.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/maggiorana.html</loc></url>
+  <url><loc>https://erbedeltempio.it/erbe/malva-arborea.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/malva.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/malvone.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/margheritina.html</loc></url>
@@ -131,6 +134,7 @@
   <url><loc>https://erbedeltempio.it/erbe/mirto.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/moringa.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/neem.html</loc></url>
+  <url><loc>https://erbedeltempio.it/erbe/nepeta-cataria.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/nepitella.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/nocciolo.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/noce.html</loc></url>
@@ -146,6 +150,7 @@
   <url><loc>https://erbedeltempio.it/erbe/parietaria.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/piantaggine.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/pilosella.html</loc></url>
+  <url><loc>https://erbedeltempio.it/erbe/pimpinella.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/pino-marittimo.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/pioppo-nero.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/polipodio.html</loc></url>
@@ -169,7 +174,6 @@
   <url><loc>https://erbedeltempio.it/erbe/salcerella.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/salice-bianco.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/salicornia.html</loc></url>
-  <url><loc>https://erbedeltempio.it/erbe/pimpinella.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/salvia.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/sambuco.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/sanicola.html</loc></url>
@@ -177,6 +181,7 @@
   <url><loc>https://erbedeltempio.it/erbe/santoreggia.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/scolopendrio.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/sedano.html</loc></url>
+  <url><loc>https://erbedeltempio.it/erbe/sedum-telephium.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/semprevivo.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/sorbo-rosso.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/spillabuco.html</loc></url>
@@ -196,8 +201,5 @@
   <url><loc>https://erbedeltempio.it/erbe/vite-rossa.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/zenzero.html</loc></url>
   <url><loc>https://erbedeltempio.it/erbe/zucca.html</loc></url>
-  <url><loc>https://erbedeltempio.it/chi-siamo.html</loc></url>
-  <url><loc>https://erbedeltempio.it/privacy.html</loc></url>
-  <url><loc>https://erbedeltempio.it/cookie.html</loc></url>
-  <url><loc>https://erbedeltempio.it/affiliazione.html</loc></url>
+  <url><loc>https://erbedeltempio.it/blog/erbe-per-dormire-meglio.html</loc></url>
 </urlset>
